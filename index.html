@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h1 class="logo">MyCompany</h1>
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#profile">Our Profile</a></li>
+      <li><a href="#contact">Message Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="home">
+    <div class="banner">
+      <h2 id="welcome-text">Hi, Guest</h2>
+      <p>Welcome to our company website</p>
+    </div>
+  </section>
+
+  <!-- OUR PROFILE -->
+  <section id="profile" class="profile">
+    <h2>About The Company</h2>
+
+    <div class="about-container">
+    <div class="about-card">
+        <h3>Our Company</h3>
+    <p>
+      Kami adalah perusahaan yang bergerak di bidang teknologi dan solusi digital
+      untuk membantu bisnis berkembang.
+    </p>
+</div>
+  </div>
+
+    <div class="vision-mission">
+  <h2>Vision & Mission</h2>
+
+  <div class="vm-container">
+    <div class="vm-card">
+      <h3>Our Vision</h3>
+      <p>
+        Menjadi perusahaan teknologi terpercaya yang menghadirkan solusi digital
+        inovatif dan berkelanjutan bagi masyarakat.
+      </p>
+    </div>
+
+    <div class="vm-card">
+      <h3>Our Mission</h3>
+      <ul>
+        <li>Menyediakan layanan berkualitas tinggi</li>
+        <li>Mengutamakan kepuasan pelanggan</li>
+        <li>Mengembangkan inovasi berkelanjutan</li>
+        <li>Menciptakan lingkungan kerja profesional</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  </section>
+
+  <!-- MESSAGE US -->
+  <section class="contact" id="contact">
+    <h2>Message Us</h2>
+
+    <form id="contactForm">
+      <label>Nama</label>
+      <input type="text" id="name">
+
+      <label>Email</label>
+      <input type="email" id="email">
+
+      <label>Nomor Telepon</label>
+      <input type="text" id="phone">
+
+      <label>Pesan</label>
+      <textarea id="message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="result" id="result"></div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
